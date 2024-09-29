@@ -55,7 +55,7 @@ EverGrandeCity_DrakesRoom_EventScript_Drake_2:
 
 EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech::
 	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
-	addmoney 18000
+	addmoney 180000
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech_Text_0
 	waitmessage
@@ -74,7 +74,7 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 
 
 EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech_Text_0:
-	.string "Player received 18,000$"
+	.string "Player received 180,000$"
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeech::
 	.string "GEORGIA: Hey love, I'm Georgia and \n"

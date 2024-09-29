@@ -54,7 +54,7 @@ EverGrandeCity_GlaciasRoom_EventScript_Glacia_2:
 
 EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech::
 	msgbox EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
-	addmoney 15000
+	addmoney 150000
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech_Text_0
 	waitmessage
@@ -71,7 +71,7 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 
 
 EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech_Text_0:
-	.string "Player received 15,000$"
+	.string "Player received 150,000$"
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech::
 	.string "LIZZIE: Hey I'm Lizzie, rhythm \n"

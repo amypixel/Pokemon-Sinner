@@ -24,7 +24,7 @@ Demo_Mart_2:
 	goto Demo_Mart_1
 
 Demo_Mart_6:
-	addmoney 15000
+	addmoney 150000
 	setvar VAR_DEMOSHOP, 1
 	goto Demo_Mart_5
 
@@ -1208,10 +1208,10 @@ Demo_Mart_Text_1:
 
 Demo_Sign_Text_0:
 	.string "Rewards Preview\p"
-	.string "Aurora: 10,000\p"
-	.string "Emily: 12,000\p"
-	.string "Lizzie: 15,000\p"
-	.string "Georgia: 18,000\p"
+	.string "Aurora: 100,000\p"
+	.string "Emily: 120,000\p"
+	.string "Lizzie: 150,000\p"
+	.string "Georgia: 180,000\p"
 	.string "Abigail: Dinner Guest List!$"
 
 GivePlayerGod_Text_0:
@@ -1392,14 +1392,14 @@ NessStrategy::
 	.string "I gotta rethink my strategy…$"
 
 NursePick::
-	.string "Pick your team out of these guys\n"
-	.string "over there!\p"
+	.string "GOBLIN: Pick your team out of these \n"
+	.string "guys over there!\p"
 	.string "The band are absolute killers,\n"
 	.string "you're gonna need a whooole lotta\l"
 	.string "nerve to beat them!$"
 
 NurseGive_Ready::
-	.string "Are you ready to challenge\n"
+	.string "GOBLIN: Are you ready to challenge\n"
 	.string "The Last Dinner Party?\p"
 	.string "I heard they'll invite you to their\n"
 	.string "show if you manage to beat them \l"
@@ -1413,8 +1413,8 @@ NurseGive_GoGetem::
 	.string "the real gunslinger!$"
 
 NurseStop_Text::
-	.string "Are you trying to challenge the band \n"
-	.string "to POKéMON battles...\l"
+	.string "GOBLIN: Are you trying to challenge \n"
+	.string "the band to POKéMON battles…\l"
 	.string "without POKéMON? \p"
 	.string "That won't do!\p"
 	.string "Go pick your team out of these guys\n"

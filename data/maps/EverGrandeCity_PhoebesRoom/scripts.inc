@@ -54,7 +54,7 @@ EverGrandeCity_PhoebesRoom_EventScript_Phoebe_2:
 
 EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech::
 	msgbox Emily_Text_PostBattleSpeech, MSGBOX_DEFAULT
-	addmoney 12000
+	addmoney 120000
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech_Text_0
 	waitmessage
@@ -71,7 +71,7 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 
 
 EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech_Text_0:
-	.string "Player received 12,000$"
+	.string "Player received 120,000$"
 
 Emily_Text_IntroSpeech::
 	.string "EMILY: Hi, I'm Emily. \p"

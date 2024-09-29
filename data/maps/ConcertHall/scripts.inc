@@ -315,15 +315,17 @@ Nora_EventScript_ConcertHall_Text_0:
 	.string "NORA: Thanks! I'll wait right here!$"
 
 Intro::
-	.string "Wait… did you just hop off the band's\n"
-	.string "truck? How did you even get on there?\p"
+	.string "RACHEL: Wait… did you just hop off the \n"
+	.string "band's truck? How did you even get on \l"
+	.string "there?\p"
 	.string "… … … What?\p"
 	.string "You don't even have a ticket! \p"
 	.string "Ohh I see! You're one of those Pokémon \n"
 	.string "Trainers, looking to battle the band \l"
 	.string "for a free ticket eh? \p"
 	.string "Well good luck to you, I hear they're \n"
-	.string "ruthless!$"
+	.string "ruthless!\p"
+	.string "I hope they play Second Best…$"
 
 IntroSign::
 	.string "Ever Grande City Concert Hall\p"
@@ -334,8 +336,7 @@ OutroFront::
 	.string "Show starts soon, get on in!$"
 
 IntroChild::
-	.string "I've been here since 10am! I'm finally\n"
-	.string "getting barricade!$"
+	.string "YAPGOB: I've been here since 10am!\p I'm finally getting barricade!$"
 
 IntroBrenae::
 	.string "BRENAE: I bought my ticket months ago!\p"

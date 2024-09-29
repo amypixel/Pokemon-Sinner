@@ -68,7 +68,7 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	setflag FLAG_DEFEATED_ELITE_4_SIDNEY
 	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
 	msgbox Aurora_Text_PostBattleSpeech
-	addmoney 10000
+	addmoney 100000
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox EverGrandeCity_SidneysRoom_EventScript_Defeated_Text_0
 	waitmessage
@@ -77,7 +77,7 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 
 
 EverGrandeCity_SidneysRoom_EventScript_Defeated_Text_0:
-	.string "Player received 10,000$"
+	.string "Player received 100,000$"
 
 Aurora_Text_IntroSpeech::
 	.string "AURORA: Hey there! I'm Aurora of\n"
