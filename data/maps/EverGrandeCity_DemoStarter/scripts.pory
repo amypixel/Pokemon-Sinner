@@ -91,8 +91,8 @@ script Nurse_EventScript_Demo{
 }
 
 text NursePick{
-    "Pick your team out of these guys\n"
-    "over there!\p"
+    "GOBLIN: Pick your team out of these \n"
+    "guys over there!\p"
     "The band are absolute killers,\n"
     "you're gonna need a whooole lotta\l"
     "nerve to beat them!$"
@@ -143,7 +143,7 @@ script SetFlags_EventScript_Demo{
 }
 
 text NurseGive_Ready{
-    "Are you ready to challenge\n"
+    "GOBLIN: Are you ready to challenge\n"
     "The Last Dinner Party?\p"
     "I heard they'll invite you to their\n"
     "show if you manage to beat them \l"
@@ -231,8 +231,8 @@ script NurseStop_EventScript_Demo2{
 }
 
 text NurseStop_Text{
-    "Are you trying to challenge the band \n"
-    "to POKéMON battles...\l"
+    "GOBLIN: Are you trying to challenge \n"
+    "the band to POKéMON battles…\l"
     "without POKéMON? \p"
     "That won't do!\p"
     "Go pick your team out of these guys\n"

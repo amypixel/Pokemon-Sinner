@@ -12,15 +12,17 @@ script IntroNPC1_EventScript_ConcertHall{
 }
 
 text Intro{
-    "Wait… did you just hop off the band's\n"
-    "truck? How did you even get on there?\p"
+    "RACHEL: Wait… did you just hop off the \n"
+    "band's truck? How did you even get on \l"
+    "there?\p"
     "… … … What?\p"
     "You don't even have a ticket! \p"
     "Ohh I see! You're one of those Pokémon \n"
     "Trainers, looking to battle the band \l"
     "for a free ticket eh? \p"
     "Well good luck to you, I hear they're \n"
-    "ruthless!$"
+    "ruthless!\p"
+    "I hope they play Second Best…$"
 }
 movement faceup{
     face_up
@@ -109,7 +111,7 @@ text OutroFront{
     format("What are you doing out here? \p Show starts soon, get on in!")
 }
 text IntroChild{
-    format("I've been here since 10am! I'm finally getting barricade!")
+    "YAPGOB: I've been here since 10am!\p I'm finally getting barricade!"
 }
 
 text IntroBrenae{
